@@ -1,0 +1,15 @@
+name: 'testPlugin'
+version: '0.01_alpha'
+main: me.pai.pl.pluginMain
+api-version: '1.20'
+commands:
+  jail:
+    description: "Jailing the people"
+    usage: "/jail [name]"
+    permission: pl.commnad.jail
+    permission-message: "Nah"
+  unbreakableblock:
+    description: "Add an unbreakable block to the list"
+    usage: "/unbreakableblock [block_name] [block_name2] ... [block_nameN]"
+    permission: pl.command.unbreakableblock
+    permission-message: "Nah"
